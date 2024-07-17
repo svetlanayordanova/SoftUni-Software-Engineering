@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Types</title>
+    <link rel="stylesheet" href="media-types.css">
+</head>
+
+<body>
+
+    <h1>Media Types</h1>
+    <p>https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types</p>
+
+    <p>Media types describe the general category of a device. Except when using the not or only logical
+        operators, the media type is optional and the all type is implied.</p>
+
+    <h2>all</h2>
+    <p>Suitable for all devices
+    <section>
+        <div>@media all {<div>
+                <div class="tab1">* {</div>
+                <div class="tab2">padding: 0;</div>
+                <div class="tab2">margin: 0;</div>
+                <div class="tab2">box-sizing: border-box;</div>
+                <div class="tab1">}</div>
+                <br />
+                <div class="tab1">body {</div>
+                <div class="tab2">padding: 2em;</div>
+                <div class="tab2">font: 14px/1.5 Lato, sans-serif;</div>
+                <div class="tab1">}</div>
+                <br />
+                <div class="tab1">p {</div>
+                <div class="tab2">padding-bottom: 1.5em;</div>
+                <div class="tab1">}</div>
+                <div>}</div>
+    </section>
+    </p>
+
+    <h2>print</h2>
+    <p>Intended for paged material and documents viewed on a screen in print preview mode
+    <section>
+        <div>@media print {</div>
+        <div class="tab1">body::before {</div>
+        <div class="tab2">display: block;</div>
+        <div class="tab2">content: 'The page is using a print preview or it was printed';</div>
+        <div class="tab1">}</div>
+        <div>}</div>
+    </section>
+    </p>
+
+    <h2>screen</h2>
+    <p>Intended primarily for screens
+    <section>
+        <div>@media screen {</div>
+        <div class="tab1">body::before {</div>
+        <div class="tab2">display: block</div>
+        <div class="tab2">content: 'The page is being shown on a screen';</div>
+        <div class="tab1">}</div>
+        <div>}</div>
+    </section>
+    </p>
+
+</body>
+
+</html>
