@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Features</title>
+    <link rel="stylesheet" href="media-features.css">
+</head>
+
+<body>
+
+    <h1>Media Features</h1>
+    <p class="subtitle">Not complete list</p>
+    <p>https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features</p>
+
+    <h2>hover</h2>
+    <p>Does the primary input mechanism allow the user to hover over elements? Added in Media Queries Level 4.</p>
+    <section>
+        <div>@media (hover: none) {</div>
+        <div class="tab1">body::before {</div>
+        <div class="tab2">display: block;</div>
+        <div class="tab2">content: 'This device doesn't support hover';</div>
+        <div class="tab1">}</div>
+        <div>}</div>
+    </section>
+    </p>
+
+    <h2>orientation</h2>
+    <p>Orientation of the viewport.
+    <section>
+        <div>@media (orientation: landscape) {</div>
+        <div class="tab1">body::before {</div>
+        <div class="tab2">display: block;</div>
+        <div class="tab2">content: 'The device is in landscape orientation';</div>
+        <div class="tab1">}</div>
+        <div>}</div>
+    </section>
+    </p>
+
+    <h2>width</h2>
+    <p>Width of the viewport including width of scrollbar.
+    <section>
+        <div>@media (width: 600px) {</div>
+        <div class="tab1">body::before {</div>
+        <div class="tab2">display: block;</div>
+        <div class="tab2">content: 'The viewport width is 600px';</div>
+        <div class="tab1">}</div>
+        <div>}</div>
+    </section>
+    </p>
+
+    <h2>height</h2>
+    <p>Height of the viewport.</p>
+    <p>
+    <section>
+        <div>@media (height: 800px) {</div>
+        <div class="tab1">body::before {</div>
+        <div class="tab2">display: block;</div>
+        <div class="tab2">content: 'The viewport height is 800px';</div>
+        <div class="tab1">}</div>
+        <div>}</div>
+    </section>
+    </p>
+
+</body>
+
+</html>
