@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 12px/1.5 Agbalumo, sans-serif;
+    padding: 2em;
+}
+
+.container {
+    width: 870px;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #D5EBEA;
+    padding-left: 1.5em;
+    padding-right: 3em;
+}
+
+h1 {
+    border-bottom: 2px solid #000;
+    padding-top: 1em;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    padding-top: 3em;
+    padding-left: 1.5em;
+    padding-right: 3em;
+    flex-basis: 1 0 auto;
+    margin-bottom: 3em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    width: 40%;
+    padding: 1em 1.5em 1em 1em;
+}
+
+.content img {
+    padding-bottom: 2em;
+}
+
+aside {
+    font-size: 16px;
+    padding-top: 2em;
+    padding-left: 1.4em;
+    padding-right: 1em;
+}
+
+aside p:not(:last-child) {
+    margin-bottom: 1.3em;
+}
+
+h2 {
+    font-size: 20px;
+    display: inline;
+    background-color: #000;
+    color: #fff;
+    padding: 0.2em 4em 0 4em;
+}
+
+.facts {
+    font-size: 16px;
+    line-height: 2;
+    padding-top: 0.5em;
+    padding-left: 3.2em;
+    padding-bottom: 0.2em;
+    background-color: #D5EBEA;
+}
