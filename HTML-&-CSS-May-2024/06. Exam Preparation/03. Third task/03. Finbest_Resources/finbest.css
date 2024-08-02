@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Inter, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 12em;
+    font-size: 1.2em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+header nav ul li {
+    list-style: none outside;
+}
+
+header nav ul li .sign-up {
+    padding: 1em 1.5em;
+    background-color: #ADE2DF;
+    border-radius: 0.4em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.first-section,
+.fifth-section {
+    padding: 6em 2em;
+    background-color: #ADE2DF;
+    text-align: center;
+}
+
+.first-section h1,
+.fifth-section h1 {
+    font-size: 4.7em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.first-section p,
+.fifth-section p {
+    font-size: 1.36em;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
+.first-section .buttons ul,
+.fifth-section .buttons ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.first-section .buttons ul li,
+.fifth-section .buttons ul li {
+    list-style: none outside;
+}
+
+.first-section .buttons ul li,
+.fifth-section .buttons ul li {
+    padding: 1.5em 2em;
+    background-color: #000;
+    border-radius: 0.4em;
+    color: #fff;
+}
+
+.first-section .buttons ul li i,
+.fifth-section .buttons ul li i {
+    padding-right: 0.2em;
+    font-size: 1.2em;
+
+}
+
+.first-section .buttons ul li a,
+.fifth-section .buttons ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    padding: 6em 6em;
+}
+
+.second-section .column {
+    flex: 0 1 29%;
+    flex-wrap: wrap;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0 1.2em 4em 1.2em;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.second-section .column h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.second-section .column p {
+    font-size: 1.36em;
+}
+
+.third-section {
+    display: flex;
+    background-color: #ADE2DF;
+    justify-content: center;
+    gap: 7em;
+}
+
+.third-section img {
+    padding: 0 2em;
+    border: 2px dashed #98B8B6;
+    width: 25%;
+
+}
+
+.third-section div {
+    flex: 0 1 33%;
+    flex-wrap: wrap;
+    padding: 7em 0;
+}
+
+.third-section div h2 {
+    font-size: 2.8em;
+    padding-bottom: 0.8em;
+}
+
+.third-section div .subtitle {
+    font-weight: bold;
+    line-height: 1;
+    font-size: 1.25em;
+    padding-bottom: 0.7em;
+}
+
+.third-section div p {
+    font-size: 1.15em;
+    padding-bottom: 1.5em;
+}
+
+.third-section div p:last-of-type {
+    padding-bottom: 2em;
+}
+
+.flex {
+    display: flex;
+    gap: 0.4em;
+}
+
+.flex {
+    display: inline;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.2em;
+    font-size: 1.4em;
+}
+
+.flex a {
+    font-size: 0.75em;
+    text-decoration: none;
+    color: #000;
+}
+
+.flex i {
+    align-self: center;
+    font-size: 0.6em;
+}
+
+.fourth-section {
+    background-color: #F3F5FA;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.fourth-section a {
+    padding: 0.5em 1em;
+    background-color: #ADE2DF;
+    text-decoration: none;
+    border-radius: 0.6em;
+    color: #000;
+    font-weight: 600;
+}
+
+.fourth-section h2 {
+    font-size: 2.5em;
+    padding-top: 0.8em;
+    padding-bottom: 2em;
+    font-weight: 600;
+}
+
+.fourth-section .plans {
+    display: flex;
+    border: 2px solid #ddd;
+    border-radius: 0.4em;
+    background-color: #fff;
+}
+
+.fourth-section .plans .column {
+    padding: 0 2em;
+    border-right: 2px solid #ddd;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.fourth-section .plans .type {
+    border-bottom: 2px solid #ddd;
+}
+
+.fourth-section .plans h4,
+.expand .plans h4 {
+    font-size: 1.4em;
+}
+
+.fourth-section .plans p {
+    font-size: 1.13em;
+    text-align: start;
+    padding-bottom: 1em;
+}
+
+.fourth-section .plans .price {
+    display: inline-block;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.fourth-section .plans .desc {
+    padding: 2.5em 0;
+    font-size: 0.92em;
+}
+
+.fourth-section .plans .desc li {
+    display: flex;
+    gap: 0.3em;
+    align-items: baseline;
+}
+
+.fourth-section .plans a {
+    display: block;
+    padding: 1.5em;
+    background-color: #ADE2DF;
+    color: #000;
+}
+
+.fourth-section .expand {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ADE2DF;
+    padding: 2em;
+    flex: 1 1 42%;
+    flex-wrap: wrap;
+}
+
+.fourth-section .expand .first-line {
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-bottom: 0.1em;
+}
+
+.fourth-section .expand p {
+    line-height: 1.5;
+}
+
+.fourth-section .expand a {
+    display: block;
+    padding: 1.5em;
+    background-color: #000;
+    color: #fff;
+}
+
+.fifth-section {
+    padding: 6em 0;
+}
+
+.fifth-section h1 {
+    font-size: 5em;
+    line-height: 1.2;
+}
+
+.fifth-section p {
+    font-size: 1.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 3.5em;
+    font-size: 1.3em;
+}
+
+footer .icons {
+    display: flex;
+    gap: 1em;
+}
